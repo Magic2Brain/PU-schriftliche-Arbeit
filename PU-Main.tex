@@ -1,0 +1,150 @@
+\input{preamble.tex}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+
+\center
+
+\textsc{\LARGE NKSA}\\[1.5cm] 
+\textsc{\Large PU-ARBEIT}\\[0.5cm] 
+\textsc{\large DATEN UND INFORMATIONEN}\\[0.5cm] 
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Magic2Brain}\\[0.4cm] 
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{center}\large
+\emph{Autoren:}\\
+Roman \textsc{Himmel} G3E\\
+Berke \textsc{Ates} G3E\\
+Fabian \textsc{Haller} G3E
+\end{center}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Betreungsperson:} \\
+Claude \textsc{Gittelson}
+\end{flushright}
+\end{minipage}\\[4cm]
+
+{\large \today}\\[3cm] 
+
+%\includegraphics{Logo}\\[1cm] % M2B Logo
+
+\vfill
+
+\end{titlepage}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\refname}{Quellenverzeichnis}
+
+%----------------------------------------------------------------------------------------
+%	Abstract
+%----------------------------------------------------------------------------------------
+
+\section*{Abstract}
+
+\input{Content/abstract.tex}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Vorwort
+%----------------------------------------------------------------------------------------
+
+\section*{Vorwort}
+
+\input{Content/vorwort}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents 
+
+\newpage 
+
+%----------------------------------------------------------------------------------------
+%	Einleitung
+%----------------------------------------------------------------------------------------
+
+\section{Einleitung} 
+
+\input{Content/einleitung}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Theoretische Grundlagen
+%----------------------------------------------------------------------------------------
+
+\section{Theoretische Grundlagen} % Major section
+
+\input{Content/theoretische_grundlagen}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Methode
+%----------------------------------------------------------------------------------------
+
+\section{Methode} % Major section
+
+\input{Content/methode}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Darstellung und Ergebnisse
+%----------------------------------------------------------------------------------------
+
+\section{Darstellung und Ergebnisse} % Major section
+
+\input{Content/darstellung_und_ergebnisse}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Diskussion der Ergebnisse
+%----------------------------------------------------------------------------------------
+
+\section{Diskussion der Ergebnisse} % Major section
+
+\input{Content/diskussion_der_ergebnisse}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	Theoretische Grundlagen
+%----------------------------------------------------------------------------------------
+
+\section{Zusammenfassung} % Major section
+
+\input{Content/zusammenfassung}
+
+\newpage
+
+\begin{thebibliography}{9} % Bibliography - this is intentionally simple in this template
+
+\input{References/einleitung}
+\input{References/theoretische_grundlagen}
+\input{References/methode}
+\input{References/darstellung_und_ergebnisse}
+\input{References/diskussion_der_ergebnisse}
+\input{References/zusammenfassung}
+ 
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
