@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.2.5}Von der Farbe zum Bild}{14}
 \contentsline {subsection}{\numberline {2.3}Grundlagen von Java}{15}
 \contentsline {subsection}{\numberline {2.4}Android Studio}{15}
-\contentsline {section}{\numberline {3}Methode}{19}
-\contentsline {section}{\numberline {4}Darstellung und Ergebnisse}{20}
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{21}
-\contentsline {section}{\numberline {6}Zusammenfassung}{22}
+\contentsline {section}{\numberline {3}Methode}{20}
+\contentsline {section}{\numberline {4}Darstellung und Ergebnisse}{21}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{22}
+\contentsline {section}{\numberline {6}Zusammenfassung}{23}
