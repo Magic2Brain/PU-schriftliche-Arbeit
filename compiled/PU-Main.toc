@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Einleitung}{4}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{7}
+\contentsline {subsection}{\numberline {2.1}Einf\IeC {\"u}hrung}{7}
+\contentsline {subsubsection}{\numberline {2.1.1}Die IDE}{7}
+\contentsline {subsubsection}{\numberline {2.1.2}Der Compiler}{8}
+\contentsline {subsubsection}{\numberline {2.1.3}Der Debugger}{8}
+\contentsline {subsubsection}{\numberline {2.1.4}Die Programmiersprache}{9}
+\contentsline {subsection}{\numberline {2.2}Vom Bin\IeC {\"a}rcode zum Bild}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}Vom Bin\IeC {\"a}rcode zur Zahl}{10}
+\contentsline {subsubsection}{\numberline {2.2.2}Grundoperatoren bei bin\IeC {\"a}ren Zahlen}{11}
+\contentsline {paragraph}{Addition}{11}
+\contentsline {paragraph}{Subtraktion}{11}
+\contentsline {paragraph}{Multiplikation}{11}
+\contentsline {paragraph}{Division}{12}
+\contentsline {subsubsection}{\numberline {2.2.3}Von der Zahl zur Text}{12}
+\contentsline {subsubsection}{\numberline {2.2.4}Von der Zahl zur Farbe}{13}
+\contentsline {subsubsection}{\numberline {2.2.5}Von der Farbe zum Bild}{14}
+\contentsline {subsection}{\numberline {2.3}Grundlagen von Java}{15}
+\contentsline {subsection}{\numberline {2.4}Android Studio}{15}
+\contentsline {section}{\numberline {3}Methode}{19}
+\contentsline {section}{\numberline {4}Darstellung und Ergebnisse}{20}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{21}
+\contentsline {section}{\numberline {6}Zusammenfassung}{22}
