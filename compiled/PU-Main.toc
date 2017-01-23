@@ -18,6 +18,9 @@
 \contentsline {subsection}{\numberline {2.3}Grundlagen von Java}{15}
 \contentsline {subsection}{\numberline {2.4}Android Studio}{15}
 \contentsline {section}{\numberline {3}Methode}{20}
-\contentsline {section}{\numberline {4}Darstellung und Ergebnisse}{21}
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{22}
-\contentsline {section}{\numberline {6}Zusammenfassung}{23}
+\contentsline {subsection}{\numberline {3.1}Die Arbeit mit Phonegap}{20}
+\contentsline {subsection}{\numberline {3.2}Der Aufbau der App}{20}
+\contentsline {subsection}{\numberline {3.3}Der Wechsel zu "`Android Studio"'}{20}
+\contentsline {section}{\numberline {4}Darstellung und Ergebnisse}{22}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{23}
+\contentsline {section}{\numberline {6}Zusammenfassung}{24}
