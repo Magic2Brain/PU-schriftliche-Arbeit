@@ -34,4 +34,100 @@ Im Fall von Android haben sich drei Architekturen etabiliert: armeabi-v7, Intel 
 Die Grafische Benutzeroberfläche ist das Wichtigste an einer IDE. Sie erleichtert dem Entwickler die Navigation durch seinen Code in Form von Farbmarkierungen (Rechts) und Dateibrowser (Links).
 Die Toolbar von Android Studio (Oben) ist mit wichtigen Shortcuts, wie z.B. Kompillierung starten, Emulator starten und Android SDK aktualisieren, gefüllt.
 Der Editor von Android Studio erlaubt eine automatische Vervollständigung mit Alt+Enter. Mitunter sind auch schon fertige Vorlagen für Activities in Android Studio verfügbar, die auf Knopfdruck in das Projekt kopiert werden und gleichzeitig für die Kompillierung registirert werden. Der Dateibrowser erlaubt es zwischen Quellcode-Dateien zu wechseln und diese zur Bearbeitung zu öffnen. Zusätzlich sind Funktionen zum importieren von Dateien oder Assets vorhanden. Selbstverständlich kann dies auch manuell geschehen, indem man in einem beliebigen Dateibrowser zu dem Assets resp. Res (kurz für \textit{Ressources - dt. Ressourcen} ) - Ordner navigiert, in dem man seine Dateien ablegen kann. Mit Assets sind hier nicht Immobilien oder Vermögen gemeint, sondern Dateien, die von der App benötigt werden um richtig zu funktionnieren. Dazu gehören Bilder, Musikdateien und generell alles was kein Quellcode ist. Der IDE kann man auch Plugins hinzufügen. Plugins sind kleine Programmerweiterungen, welche dynamisch dazugeladen oder wieder entfernt werden können. Bei der Entwicklung von Magic2Brain ist das Plugin "Asset Studio" besonders nützlich gewesen, da man mit ihm Icons nicht nur in den Ressourcenordner kopieren konnte, sonder diese gleich in allen auf Android gängigen Auflösungen abspeichern konnte. Normalerweise müsste das von Hand gemacht werden, was bei unseren ca. 20 Icons sehr zeitaufwändig gewesen wäre.
-%TODO ASGUI fertigschreiben
+
+\paragraph{Programmieren mit dem Android SDK}\\
+
+Das Android SDK ist eines der wichtigsten Elemente in Android Studio. Man muss zwar nicht zwingendermassen Android Studio herunterladen, um dieses SDK zu nutzen, da es als Open Source Produkt frei verfügbar ist. Das Eigentliche Entwickeln basiert auf bereits vorgegebenen Klassen, welche man über das Klassenattribut \verb extends  mit seinem eigenen Code erweitert.
+Selbstverständlch gehen dabei die herkömmlichen Progrmmiermöglichkeiten von Java nicht verloren, da es einem immernoch möglich ist eigene Klassen und Bibliotheken zu erstellen.
+Eine Besonderheit von Android ist die enge Verbindung zwischen den XML-Dateien, welche Layouts, Strings und Vektorgrafiken der einzelnen Viewports enthalten.
+Diese Verbindung wird einzig und allein von Gradle aufrecht erhalten. Eine aus statischen Variabeln bestehende indexierte Liste wird somit bei jedem Gradle-Build resp. bei jeder Veränderung in der Ordnerstruktur von neuem erstellt.
+
+\paragraph{Die Bedeutung von XML Dateien für Android}\\
+
+Das Auslagern von bestimmten Informationen in XML-Dateien ist für den erfahrenen Programmierer eine sehr schnelle, platzsparende aber auch nützliche Angelegenheit.
+Somit kann er sich einige Zeilen Code sparen um ein Element einer Activity hinzuzufügen. Als Beispiel dafür wird das Erstellen eines Texteingabefeldes in einer Activity benutzt.
+
+\begin{figure}[htbp] 
+  \centering
+     \includegraphics[width=1\textwidth]{search.png}
+  \caption{Search Activity \cite{search_app}}
+  \label{fig:SearchActivity}
+\end{figure}
+
+Dieses Resultat kann entweder mit XML bewerkställigt werden, aber auch mit Java selber. Im grunde ist einem diese Entscheidung selber überlassen, da das Wichtigste beim Programmieren persönliche prefärenzen sind. Dies funktionniert nach dem Schema "Solange sich der Programmierer wohl fühlt, leistet er gute Arbeit".\\
+
+\paragraph{XML}
+\begin{lstlisting}
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_handler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="m2b.magic2brain.com.SearchHandlerActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/search_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="Name" />
+</RelativeLayout>
+\end{lstlisting}
+
+Das Element "EditText" ist hier das Texteingabefeld. Im wird mit \verb android:id=  eine eindeutige ID zugewiesen, mit der später vom Code aus auf das Element zugegriffen werden kann.
+In Java wird das XML folgendermassen eingebunden und auf das Element zugegriffen:
+\begin{lstlisting}
+//Wichtige imports werden ausgelassen
+import m2b.magic2brain.com.magic2brain.R;
+
+//Das Element wird mit der Funktion findViewByID(int ID)
+//in der indexierten liste gesucht und gefunden
+
+EditText mTextField = (EditText) findViewByID(R.id.search_text);
+
+//nun kann mit der Variabel mTextField wie gewohnt gearbeitet werden
+\end{lstlisting}
+
+\paragraph{Java}\\
+Auch bei einer puren Umsetzung in Java ist es nicht ganz möglich dem XML zu entrinnen. Um ein Objekt an einen View hinzuzufügen, muss zu allererst ein Layout verfügbar gemacht werden.
+Folglich sieht das XML deutlich kürzer aus, muss aber vorhanden sein. Es muss ausserdem darauf geachtet werden, dem Layout eine ID zu geben, sonst ist es nicht möglich vom Code aus auf das Layout zuzugreifen.
+\begin{lstlisting}
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_handler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="m2b.magic2brain.com.SearchHandlerActivity">
+</RelativeLayout>
+\end{lstlisting}
+
+Wie bereits erwähnt besteht dieses XML nur noch aus dem rohen Layout block. \verb RelativeLayout  ist eine besondere Art von Layout, die sich hauptsächlich für Apps eignet, die später auf Endgeräten mit verschiedenen Bildschirmgössen vertrieben wird. Das einbinden in den Code geschieht wie gewohnt über \verb findViewByID(R.id.activity_search_handler);  
+
+\begin{lstlisting}
+//Imports werden hier ausgelassen
+
+//Das Layout muss für die nachfolgenden Schritte gefunden werden
+RelativeLayout lyt = (RelativeLayout) findViewById(R.id.query_absolute);
+
+//Ein neues, unzugeordnetes Textfeld wird erstellt
+EditText mTextField = new EditText(this);
+
+//Nun wird das Textfeld zum Layout hinzugefügt
+lyt.addView(mTextField);
+\end{lstlisting}
+
+Man sollte XML nur dann benutzen, wenn man wenig an seinem bisher entworfenen XML verändert. Würde man dynamisch Elemente wie z.B. Knöpfe oder Bilder hinzufügen, empfiehlt es sich dieses Problem programmiertechnisch anzugehen.
