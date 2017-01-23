@@ -10,10 +10,57 @@
 \usepackage{amsfonts} % Required for mathematical Symbols
 \usepackage [autostyle, english = american]{csquotes} % automatic quote management
 
-\usepackage{listings} % Für Quellcode eingaben
-
 \usepackage[ngerman]{babel} %german language package
 
 \linespread{1.2} % Line spacing
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\usepackage{xcolor} % Adds Colors (used of listing settings)
+
+\usepackage{listings} % Für Quellcode eingaben
+\lstset{language=Java}
+
+\definecolor{codegreen}{HTML}{32cd32}
+\definecolor{black}{HTML}{000000}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{RGB}{240,240,240}
+
+\lstdefinestyle{java}{ %Settings for Syntaxhighlighting
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize\fontfamily{phv}\sffamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstdefinestyle{console}{ %Settings for Syntaxhighlighting
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{black},
+    keywordstyle=\color{black},
+    numberstyle=\tiny\color{black},
+    stringstyle=\color{black},
+    basicstyle=\footnotesize\fontfamily{phv}\sffamily,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,     
+    numbers=none,                            
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=java}
