@@ -30,26 +30,25 @@
 \contentsline {subsubsection}{\numberline {2.3.6}Methoden}{26}
 \contentsline {subsubsection}{\numberline {2.3.7}Klassen}{28}
 \contentsline {subsection}{\numberline {2.4}Android Studio}{30}
-\contentsline {paragraph}{Programmieren mit dem Android SDK}{33}
-\contentsline {paragraph}{Die Bedeutung von XML Dateien f\IeC {\"u}r Android}{33}
-\contentsline {paragraph}{Java}{36}
-\contentsline {section}{\numberline {3}Methode}{38}
-\contentsline {subsection}{\numberline {3.1}Die Arbeit mit Phonegap}{38}
-\contentsline {subsection}{\numberline {3.2}Der Aufbau der App}{38}
-\contentsline {subsection}{\numberline {3.3}Der Wechsel zu "`Android Studio"'}{38}
-\contentsline {section}{\numberline {4}Darstellung der Ergebnisse}{40}
-\contentsline {subsection}{\numberline {4.1}Home}{40}
-\contentsline {subsection}{\numberline {4.2}Search}{41}
-\contentsline {subsection}{\numberline {4.3}Set Browser}{41}
-\contentsline {subsection}{\numberline {4.4}Quick Learn}{42}
-\contentsline {subsection}{\numberline {4.5}Favorites}{42}
-\contentsline {subsection}{\numberline {4.6}Recently Learned}{42}
-\contentsline {subsection}{\numberline {4.7}Share}{42}
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{43}
-\contentsline {subsection}{\numberline {5.1}Diskussion der Teilaspekte}{43}
-\contentsline {subsection}{\numberline {5.2}Diskussion des Endergebisses}{44}
-\contentsline {subsection}{\numberline {5.3}Diskussion des methodischen Vorgehens}{45}
-\contentsline {section}{\numberline {6}Zusammenfassung}{46}
+\contentsline {subsubsection}{\numberline {2.4.1}Programmieren mit dem Android SDK}{33}
+\contentsline {subsubsection}{\numberline {2.4.2}Die Bedeutung von XML Dateien f\IeC {\"u}r Android}{33}
+\contentsline {section}{\numberline {3}Methode}{37}
+\contentsline {subsection}{\numberline {3.1}Die Arbeit mit Phonegap}{37}
+\contentsline {subsection}{\numberline {3.2}Der Aufbau der App}{37}
+\contentsline {subsection}{\numberline {3.3}Der Wechsel zu "`Android Studio"'}{37}
+\contentsline {section}{\numberline {4}Darstellung der Ergebnisse}{39}
+\contentsline {subsection}{\numberline {4.1}Home}{39}
+\contentsline {subsection}{\numberline {4.2}Search}{40}
+\contentsline {subsection}{\numberline {4.3}Set Browser}{40}
+\contentsline {subsection}{\numberline {4.4}Quick Learn}{41}
+\contentsline {subsection}{\numberline {4.5}Favorites}{41}
+\contentsline {subsection}{\numberline {4.6}Recently Learned}{41}
+\contentsline {subsection}{\numberline {4.7}Share}{41}
+\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{42}
+\contentsline {subsection}{\numberline {5.1}Diskussion der Teilaspekte}{42}
+\contentsline {subsection}{\numberline {5.2}Diskussion des Endergebisses}{43}
+\contentsline {subsection}{\numberline {5.3}Diskussion des methodischen Vorgehens}{44}
+\contentsline {section}{\numberline {6}Zusammenfassung}{45}
 \contentsline {section}{\numberline {7}Anhang}{48}
 \contentsline {subsection}{\numberline {7.1}MainActivity.java}{48}
 \contentsline {subsection}{\numberline {7.2}SearchActivity.java}{56}
