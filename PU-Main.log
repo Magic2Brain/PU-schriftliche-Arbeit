@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.8)  25 JAN 2017 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.8)  26 JAN 2017 00:41
 entering extended mode
 **./PU-Main.tex
 (PU-Main.tex
@@ -637,212 +637,209 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/roman/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Content/ab
 stract.tex)
-[1] (Content/vorwort.tex) [2] (PU-Main.toc)
+[1] (Content/vorwort.tex) [2] (PU-Main.toc [3])
 \tf@toc=\write3
 \openout3 = `PU-Main.toc'.
 
- [3] (Content/einleitung.tex
-
-LaTeX Warning: Citation `Hoehlenmalerei' on page 4 undefined on input line 1.
-
-
-LaTeX Warning: Citation `Computer' on page 4 undefined on input line 1.
-
-<Pictures/Zuse_Z3.jpg, id=18, 562.1pt x 389.455pt>
+ [4] (Content/einleitung.tex
+<Pictures/Zuse_Z3.jpg, id=21, 562.1pt x 389.455pt>
 File: Pictures/Zuse_Z3.jpg Graphic file (type jpg)
  <use Pictures/Zuse_Z3.jpg>
 Package pdftex.def Info: Pictures/Zuse_Z3.jpg used on input line 4.
 (pdftex.def)             Requested size: 292.77629pt x 202.85054pt.
 
-
-LaTeX Warning: Citation `Zuse_Z3' on page 4 undefined on input line 5.
-
-<Pictures/Magiccard.jpg, id=19, 301.125pt x 417.56pt>
+<Pictures/Magiccard.jpg, id=22, 301.125pt x 417.56pt>
 File: Pictures/Magiccard.jpg Graphic file (type jpg)
 
 <use Pictures/Magiccard.jpg>
 Package pdftex.def Info: Pictures/Magiccard.jpg used on input line 11.
 (pdftex.def)             Requested size: 167.2989pt x 231.99701pt.
-
-
-LaTeX Warning: Citation `Magiccard' on page 4 undefined on input line 12.
-
-) [4 <./Pictures/Zuse_Z3.jpg>] [5 <./Pictures/Magiccard.jpg>] [6]
-(Content/theoretische_grundlagen.tex
-<Pictures/CodeColor.jpg, id=30, 266.9975pt x 368.37625pt>
+) [5 <./Pictures/Zuse_Z3.jpg>] [6 <./Pictures/Magiccard.jpg>] [7] (Content/theo
+retische_grundlagen.tex
+<Pictures/CodeColor.jpg, id=33, 266.9975pt x 368.37625pt>
 File: Pictures/CodeColor.jpg Graphic file (type jpg)
 
 <use Pictures/CodeColor.jpg>
-Package pdftex.def Info: Pictures/CodeColor.jpg used on input line 8.
+Package pdftex.def Info: Pictures/CodeColor.jpg used on input line 27.
 (pdftex.def)             Requested size: 125.47737pt x 173.11998pt.
 
-<Pictures/CodeWithoutColor.png, id=31, 296.10625pt x 437.635pt>
+<Pictures/CodeWithoutColor.png, id=34, 296.10625pt x 437.635pt>
 File: Pictures/CodeWithoutColor.png Graphic file (type png)
 
 <use Pictures/CodeWithoutColor.png>
-Package pdftex.def Info: Pictures/CodeWithoutColor.png used on input line 9.
+Package pdftex.def Info: Pictures/CodeWithoutColor.png used on input line 30.
 (pdftex.def)             Requested size: 125.47737pt x 185.44817pt.
+ [8] [9 <./Pictures/CodeColor.jpg> <./Pictures/CodeWithoutColor.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
+ []
 
-LaTeX Warning: Citation `Colorhighlighting' on page 7 undefined on input line 1
-0.
+[11]
 
-[7] [8 <./Pictures/CodeColor.jpg> <./Pictures/CodeWithoutColor.png>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 26--41
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 
+     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--41
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 
+      
+? 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--41
+! LaTeX Error: There's no line here to end.
 
- []
-
-[10] [11] <Pictures/ASCII.png, id=51, 1203.49625pt x 671.50874pt>
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 
+      
+? 
+[12] [13] <Pictures/ASCII.png, id=58, 1203.49625pt x 671.50874pt>
 File: Pictures/ASCII.png Graphic file (type png)
 
 <use Pictures/ASCII.png>
-Package pdftex.def Info: Pictures/ASCII.png used on input line 72.
+Package pdftex.def Info: Pictures/ASCII.png used on input line 225.
 (pdftex.def)             Requested size: 418.25368pt x 233.37166pt.
-
-
-LaTeX Warning: Citation `ASCII' on page 12 undefined on input line 73.
-
-
-LaTeX Warning: Citation `UTF-8' on page 12 undefined on input line 76.
-
-[12 <./Pictures/ASCII.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+ [14 <./Pictures/ASCII.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+! LaTeX Error: There's no line here to end.
 
- []
-
-[13] (C:\Users\roman\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 
+      
+? 
+(C:\Users\roman\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-
-LaTeX Warning: Citation `Dateiformate' on page 14 undefined on input line 91.
-
-[14] [15]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 97.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 97.
+[15] [16] [17]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 300
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 300.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 97.
+(Font)              for symbol `textbraceleft' on input line 300.
 
-[16] [17] [18] [19] [20] [21]
-LaTeX Font Info:    Try loading font information for OML+cmss on input line 293
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+LaTeX Font Info:    Try loading font information for OML+cmss on input line 890
 .
-LaTeX Font Info:    No file OMLcmss.fd. on input line 293.
+LaTeX Font Info:    No file OMLcmss.fd. on input line 890.
 
 
 LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 293.
+(Font)              for symbol `textless' on input line 890.
 
-[22] [23] [24] [25] [26] [27]) (Content/android_studio.tex
+[31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1299
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
+
+ []
+
+[42] [43]) (Content/android_studio.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--5
 
  []
 
-[28] <Pictures/AndroidStudio_GUI.png, id=110, 1861.95625pt x 1059.96pt>
+<Pictures/AndroidStudio_GUI.png, id=159, 1861.95625pt x 1059.96pt>
 File: Pictures/AndroidStudio_GUI.png Graphic file (type png)
 
 <use Pictures/AndroidStudio_GUI.png>
 Package pdftex.def Info: Pictures/AndroidStudio_GUI.png used on input line 13.
 (pdftex.def)             Requested size: 418.25368pt x 238.09254pt.
-
-
-LaTeX Warning: Citation `ASGUI' on page 29 undefined on input line 14.
-
-[29 <./Pictures/AndroidStudio_GUI.png>] [30]
-<Pictures/search.png, id=121, 1084.05pt x 1927.2pt>
+ [44] [45 <./Pictures/AndroidStudio_GUI.png>] [46] <Pictures/search.png, id=171
+, 1084.05pt x 1927.2pt>
 File: Pictures/search.png Graphic file (type png)
- <use Pictures/search.png>
+
+<use Pictures/search.png>
 Package pdftex.def Info: Pictures/search.png used on input line 57.
 (pdftex.def)             Requested size: 125.47737pt x 223.04956pt.
-
-
-LaTeX Warning: Citation `search_app' on page 31 undefined on input line 58.
-
-[31] [32 <./Pictures/search.png>] [33]) [34] (Content/methode.tex) [35]
-[36] (Content/darstellung_und_ergebnisse.tex
-
-LaTeX Warning: Reference `fig:splashundmenu' on page 37 undefined on input line
- 1.
-
-
-LaTeX Warning: Reference `fig:splashundmenu' on page 37 undefined on input line
- 1.
-
-<Pictures/startup.jpg, id=142, 722.7pt x 1284.8pt>
+ [47 <./Pictures/search.png>] [48]) [49]
+(Content/methode.tex) [50] [51] (Content/darstellung_und_ergebnisse.tex
+<Pictures/startup.jpg, id=189, 722.7pt x 1284.8pt>
 File: Pictures/startup.jpg Graphic file (type jpg)
  <use Pictures/startup.jpg>
 Package pdftex.def Info: Pictures/startup.jpg used on input line 5.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
 
-<Pictures/sidemenu.jpg, id=143, 722.7pt x 1284.8pt>
+<Pictures/sidemenu.jpg, id=190, 722.7pt x 1284.8pt>
 File: Pictures/sidemenu.jpg Graphic file (type jpg)
 
 <use Pictures/sidemenu.jpg>
 Package pdftex.def Info: Pictures/sidemenu.jpg used on input line 6.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
-
-
-LaTeX Warning: Reference `fig:homemenu' on page 37 undefined on input line 12.
-
-<Pictures/home.jpg, id=144, 722.7pt x 1284.8pt>
+ <Pictures/home.jpg, id=191, 722.7pt x 1284.8pt>
 File: Pictures/home.jpg Graphic file (type jpg)
- <use Pictures/home.jpg>
+
+<use Pictures/home.jpg>
 Package pdftex.def Info: Pictures/home.jpg used on input line 16.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
-
-[37 <./Pictures/startup.jpg> <./Pictures/sidemenu.jpg>]
-
-LaTeX Warning: Reference `fig:setbrowser' on page 38 undefined on input line 25
-.
-
-
-LaTeX Warning: Reference `fig:setbrowser' on page 38 undefined on input line 25
-.
-
-<Pictures/setbrowser.jpg, id=148, 722.7pt x 1284.8pt>
+ [52 <./Pictures/startup.jpg> <./Pictures/sidemenu.jpg>] <Pictures/setbrowser.j
+pg, id=195, 722.7pt x 1284.8pt>
 File: Pictures/setbrowser.jpg Graphic file (type jpg)
 
 <use Pictures/setbrowser.jpg>
 Package pdftex.def Info: Pictures/setbrowser.jpg used on input line 29.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
 
-<Pictures/cardview.jpg, id=149, 722.7pt x 1284.8pt>
+<Pictures/cardview.jpg, id=196, 722.7pt x 1284.8pt>
 File: Pictures/cardview.jpg Graphic file (type jpg)
 
 <use Pictures/cardview.jpg>
 Package pdftex.def Info: Pictures/cardview.jpg used on input line 30.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
-
-
-LaTeX Warning: Reference `fig:queryview' on page 38 undefined on input line 36.
-
-
-<Pictures/query.jpg, id=150, 722.7pt x 1284.8pt>
+ [53 <./Pictures/home.jpg>]
+<Pictures/query.jpg, id=200, 722.7pt x 1284.8pt>
 File: Pictures/query.jpg Graphic file (type jpg)
  <use Pictures/query.jpg>
 Package pdftex.def Info: Pictures/query.jpg used on input line 40.
 (pdftex.def)             Requested size: 125.47737pt x 223.05936pt.
 
-[38 <./Pictures/home.jpg>]) [39 <./Pictures/setbrowser.jpg> <./Pictures/cardvie
-w.jpg>] (Content/diskussion_der_ergebnisse.tex
+[54 <./Pictures/setbrowser.jpg> <./Pictures/cardview.jpg>]) [55 <./Pictures/que
+ry.jpg>] (Content/diskussion_der_ergebnisse.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--11
 
  []
@@ -852,12 +849,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--17
 
  []
 
-[40 <./Pictures/query.jpg>]
+! Undefined control sequence.
+l.21 ...herunterladen kann. Sie ist auf \hyperlink
+                                                  {www.magic2brain.com}{www....
+
+? 
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
-
+[56]
 Overfull \hbox (27.7072pt too wide) in paragraph at lines 26--30
 []\OT1/cmr/bx/n/12 Das Ba-ckend, bzw. das Pro-gramm wird weit-ge-hend au-to-nom
  (wartungs-
@@ -868,14 +870,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
-[41]) [42] (Content/zusammenfassung.tex
+[57]) [58] (Content/zusammenfassung.tex
 Overfull \hbox (15.35535pt too wide) in paragraph at lines 5--6
 []\OT1/cmr/m/n/12 Um dies zu be-werk-stel-li-gen ha-ben wir zahl-rei-che APIs \
 OT1/cmr/m/it/12 (\OT1/cmr/bx/it/12 A\OT1/cmr/m/it/12 pplication \OT1/cmr/bx/it/
 12 P\OT1/cmr/m/it/12 programming
  []
 
-) [43] [44] (References/einleitung.tex
+) [59] [60] (References/einleitung.tex
 Overfull \hbox (37.07216pt too wide) in paragraph at lines 1--2
 []\OT1/cmr/m/n/12 Wikipedia, the free en-cy-clo-pe-dia. \OT1/cmr/bx/n/12 htt-ps
 ://de.wikipedia.org/wiki/H[]ohlenmalerei
@@ -893,40 +895,45 @@ Underfull \hbox (badness 7238) in paragraph at lines 3--4
 icode.com.ar/ \OT1/cmr/m/n/12 [on-li-ne
  []
 
-) (References/android_studio.tex) (References/methode.tex
+) (References/android_studio.tex
 Overfull \hbox (12.15198pt too wide) in paragraph at lines 4--1
 []\OT1/cmr/bx/n/12 http://www.hbksaar.de/uploads/media/Dateiformate[]Bilddateie
 n.pdf
  []
 
+) (References/methode.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[]\OT1/cmr/m/n/12 Android Stu-dio - Gra-phi-cal User In-ter-face
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 1--1
+\OT1/cmr/m/n/12 (GUI)\OT1/cmr/bx/n/12 https://www.jetbrains.com/idea/ \OT1/cmr/
+m/n/12 [On-li-ne, zu-ge-grif-fen 19. Ja-
+ []
+
 ) (References/darstellung_und_ergebnisse.tex)
 (References/diskussion_der_ergebnisse.tex) (References/zusammenfassung.tex)
-[45] (Content/anhang.tex [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
-[71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
-[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
-[101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112]
-[113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124]
-[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136]
-[137] [138] [139] [140] [141]) [142] (PU-Main.aux)
+[61] (Content/anhang.tex [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+[102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
+[126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150] [151] [152] [153] [154] [155] [156] [157]) [158] (PU-Main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 6990 strings out of 493334
- 95388 string characters out of 3139252
- 437520 words of memory out of 3000000
- 10351 multiletter control sequences out of 15000+200000
+ 6991 strings out of 493334
+ 95406 string characters out of 3139252
+ 439147 words of memory out of 3000000
+ 10352 multiletter control sequences out of 15000+200000
  14839 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,40p,3010b,1620s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,7n,40p,3008b,1650s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/M
@@ -939,9 +946,9 @@ s10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on PU-Main.pdf (143 pages, 1551433 bytes).
+Output written on PU-Main.pdf (159 pages, 1573728 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
+ 581 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
